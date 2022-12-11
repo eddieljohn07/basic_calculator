@@ -20,3 +20,7 @@ def calculator():
     firstNum = answer
     operation = input("Enter the operator (+, -, *, /, power, square root, =): ")
   return answer
+
+
+answer = calculator()
+print("Result:", answer)
