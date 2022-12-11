@@ -2,4 +2,5 @@ import math
 
 def calculator():
   firstNum = float(input("First Number: "))
-  operation = input("What would you like to do? (+, -, *, /, power, square root): ")
+  answer = firstNum
+  operation = input("What operation would you like? (+, -, *, /, power, square root, =): ")
