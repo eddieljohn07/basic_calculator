@@ -9,3 +9,14 @@ def calculator():
       answer = firstNum + float(input("Second Number: "))
     elif operation == "-":
       answer = firstNum - float(input("Second Number: "))
+    elif operation == "*":
+      answer = firstNum * float(input("Second Number: "))
+    elif operation == "/":
+      answer = float(firstNum) / float(input("Second Number: "))
+    elif operation == "power":
+      answer = math.pow(firstNum, float(input("Second Number: ")))
+    elif operation == "square root":
+      answer = math.sqrt(firstNum)
+    firstNum = answer
+    operation = input("Enter the operator (+, -, *, /, power, square root, =): ")
+  return answer
